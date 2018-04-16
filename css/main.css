@@ -344,7 +344,7 @@
     padding-top: 54px;
     justify-content: space-between;
 }
-
+/*
 @media screen and (max-width: 960px) {
     .welcome h1 {
     font-size: 48.3px;
@@ -384,4 +384,4 @@
     .welcome p {
     font-size: 12.25px;
     }
-}
+}*/
