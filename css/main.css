@@ -314,8 +314,6 @@
 
 .footer-menu {
     padding-bottom: 34px;
-    display: flex;
-    flex-direction: column;
     padding-right: 104px;
     font-family: UniversLT;
 }
@@ -345,4 +343,45 @@
     display: flex;
     padding-top: 54px;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 960px) {
+    .welcome h1 {
+    font-size: 48.3px;
+    }
+
+    .welcome p {
+    font-size: 17.5px;
+    }
+
+    .circle1 {
+        width: 81.9px;
+        height: 81.9px;
+        top: 184.8px;
+        left: 395.5px;
+    }
+
+    .circle2 {
+        width: 64.4px;
+        height: 64.4px;
+        top: 161px;
+        left: 436.8px;
+    }
+
+    .circle3 {
+        width: 49.7px;
+        height: 49.7px;
+        top: 200.9px;
+        left: 455px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .welcome h1 {
+    font-size: 33.81px;
+    }
+
+    .welcome p {
+    font-size: 12.25px;
+    }
 }
