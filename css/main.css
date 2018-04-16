@@ -344,7 +344,7 @@
     padding-top: 54px;
     justify-content: space-between;
 }
-/*
+
 @media screen and (max-width: 960px) {
     .welcome h1 {
     font-size: 48.3px;
@@ -352,6 +352,11 @@
 
     .welcome p {
     font-size: 17.5px;
+    }
+    
+    .welcome {
+        padding-top: 226.8px;
+        padding-bottom: 57.4px;
     }
 
     .circle1 {
@@ -384,4 +389,49 @@
     .welcome p {
     font-size: 12.25px;
     }
-}*/
+
+    .welcome {
+        padding-top: 158.76px;
+        padding-bottom: 40.18px;
+    }
+
+    .circle1 {
+        width: 57.33px;
+        height: 57.33px;
+        top: 129.36px;
+        left: 276.85px;
+    }
+
+    .circle2 {
+        width: 45.08px;
+        height: 45.08px;
+        top: 112.7px;
+        left: 305.76px;
+    }
+
+    .circle3 {
+        width: 34.79px;
+        height: 34.79px;
+        top: 140.63px;
+        left: 318.5px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .welcome h1 {
+    font-size: 23.667px;
+    }
+
+    .welcome p {
+    font-size: 8.575px;
+    }
+
+    .welcome {
+        padding-top: 111.132px;
+        padding-bottom: 28.126px;
+    }
+
+    .logo {
+        font-size: 27px;
+    }
+}
