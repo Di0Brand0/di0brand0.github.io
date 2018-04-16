@@ -344,3 +344,31 @@
     padding-top: 54px;
     justify-content: space-between;
 }
+ /*phone*/
+@media screen and (max-width : 378px) {
+    .menu a {
+        margin-right: 4px;
+    }
+    .header a {
+        font-size: 11.99px;
+    }
+    .logo {
+        font-size: 28.99px;
+    }
+    .login a {
+        font-size: 11.99px;
+        padding-left: 21px;
+        background-image: url(../image/login-img-phone.png);
+        background-repeat: no-repeat;
+        background-position-x: 6px;
+        background-position-y: 3px;
+    }
+    .login {
+        width: 59px;
+        height: 19px;
+    }
+    .header {
+        height: 60px;
+    }
+}
+
