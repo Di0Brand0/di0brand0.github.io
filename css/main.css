@@ -76,12 +76,11 @@
     color: #ffffff;
     font-size: 16.99px;
     font-weight: 400;
-    padding-left: 34px;
-    background-image: url(../image/login-img.png);
-    background-repeat: no-repeat;
-    background-position-x: 13px;
-    background-position-y: 7px;
     margin: 0;
+}
+.login img {
+    padding: 7px 9px 0px 13px;
+    display: inline;
 }
 
 .menu a {
@@ -365,6 +364,9 @@
         background-repeat: no-repeat;
         background-position-x: 6px;
         background-position-y: 1px;
+    }
+    .login img {
+        display: none;
     }
     .login {
         width: 59px;
