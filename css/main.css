@@ -388,5 +388,9 @@
     top: 106.2px;
     left: 240.5px;
     }
+    .container {
+    background-image: url(../image/flower-phone.png);
+    background-size: auto;
+    }
 }
 
