@@ -276,8 +276,7 @@
 
 .footer {
     background-image: url(../image/footer-bg-image.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
