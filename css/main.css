@@ -449,5 +449,59 @@
         padding-left: 9px;
         padding-bottom: 0px;
     }
-}
+    .footer-menu h1 {
+        font-size: 12px; /*Если меньше 22, то наблюдаеться необычное смещение. Да и хуй с ним*/
+        width: 114px; /*Это исправляет проблему выше*/
+        /*line-height: 22px; */
+        padding-bottom: 15px;
+        padding-top: 14px;
+    }
+    .footer-menu p, .other {
+        font-size: 9px;
+        line-height: 14px;
+    }
 
+    /*----------------*/
+    .footer-menu {
+        padding-bottom: 0px;
+        padding-right: 7px; /*18*/ 
+    }
+    .footer {
+        justify-content: space-around;
+    }
+
+    .social {
+        display: flex;
+        padding-top: 17px;
+        padding-right: 64px;
+        padding-left: 10px;
+    }
+    .other p {
+        padding-top: 7px;
+        padding-right: 62px;
+    }
+    .facebook,
+    .tweeter,
+    .ball,
+    .share {
+        height: 29px;
+        width: 29px;
+        margin-right: 7px;
+    }
+
+    .facebook {
+        background-image: url(../image/facebook-phone.png);
+    }
+
+    .tweeter {
+        background-image: url(../image/twitter-phone.png);
+    }
+
+    .share {
+        background-image: url(../image/share-phone.png);
+    }
+
+    .ball {
+        background-image: url(../image/ball-phone.png);
+    }
+}
