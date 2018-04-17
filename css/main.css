@@ -433,6 +433,22 @@
         border-radius: 50%;
         height: 120px;
         padding-top: 22px;
-}
+    }
+    .news-flexbox {
+        padding-top: 16.6px;
+    }
+    .elem-news {
+        padding-bottom: 17px;
+    }
+    .text-news h1 {
+        font-size: 13px;
+        padding-bottom: 6px;
+        padding-left: 95px;
+    }
+    .text-news p {
+        font-size: 9px;
+        padding-left: 9px;
+        padding-bottom: 0px;
+    }
 }
 
