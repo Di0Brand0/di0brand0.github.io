@@ -346,14 +346,14 @@
 }
  /*phone*/
 @media screen and (max-width : 378px) {
-    .menu a {
-        margin-right: 4px;
+    .logo {
+        font-size: 28.99px;
+    }
+    .header {
+        height: 60px;
     }
     .header a {
         font-size: 11.99px;
-    }
-    .logo {
-        font-size: 28.99px;
     }
     .login a {
         font-size: 11.99px;
@@ -367,8 +367,26 @@
         width: 59px;
         height: 19px;
     }
-    .header {
-        height: 60px;
+    .menu a {
+        margin-right: 4px;
+    }
+    .circle1 {
+    width: 43.29px;
+    height: 43.29px;
+    top: 97.68px;
+    left: 209.05px;
+    }
+    .circle2 {
+    width: 34px;
+    height: 34px;
+    top: 85.1px;
+    left: 230.88px;
+    }
+    .circle3 {
+    width: 26.27px;
+    height: 26.27px;
+    top: 106.2px;
+    left: 240.5px;
     }
 }
 
