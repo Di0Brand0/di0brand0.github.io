@@ -450,9 +450,9 @@
         padding-bottom: 0px;
     }
     .footer-menu h1 {
-        font-size: 12px; /*Если меньше 22, то наблюдаеться необычное смещение. Да и хуй с ним*/
+        font-size: 12px; /*Если меньше 22, то наблюдаеться необычное смещение.*/
         width: 114px; /*Это исправляет проблему выше*/
-        /*line-height: 22px; */
+        line-height: 5px; 
         padding-bottom: 15px;
         padding-top: 14px;
     }
@@ -461,10 +461,9 @@
         line-height: 14px;
     }
 
-    /*----------------*/
     .footer-menu {
         padding-bottom: 0px;
-        padding-right: 7px; /*18*/ 
+        padding-right: 7px;
     }
     .footer {
         justify-content: space-around;
