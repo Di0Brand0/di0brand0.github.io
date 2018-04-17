@@ -346,6 +346,10 @@
 }
  /*phone*/
 @media screen and (max-width : 378px) {
+    .container {
+        background-image: url(../image/flower-phone.png);
+        background-size: auto;
+    }
     .logo {
         font-size: 28.99px;
     }
@@ -371,26 +375,43 @@
         margin-right: 4px;
     }
     .circle1 {
-    width: 43.29px;
-    height: 43.29px;
-    top: 97.68px;
-    left: 209.05px;
+        width: 43.29px;
+        height: 43.29px;
+        top: 97.68px;
+        left: 209.05px;
     }
     .circle2 {
-    width: 34px;
-    height: 34px;
-    top: 85.1px;
-    left: 230.88px;
+        width: 34px;
+        height: 34px;
+        top: 85.1px;
+        left: 230.88px;
     }
     .circle3 {
-    width: 26.27px;
-    height: 26.27px;
-    top: 106.2px;
-    left: 240.5px;
+        width: 26.27px;
+        height: 26.27px;
+        top: 106.2px;
+        left: 240.5px;
     }
-    .container {
-    background-image: url(../image/flower-phone.png);
-    background-size: auto;
+    .welcome {
+        padding-top: 119.88px;
+        padding-bottom: 30.34px;
     }
+    .welcome p {
+        font-size: 9.25px;
+    }
+    .welcome h1 {
+    font-size: 25.5px;
+    }
+    .section {
+        padding-top: 24px;
+    }
+    .text-section>h1 {
+    font-size: 13px;
+    padding-bottom: 6px;
+    }
+    .text-section>p {
+    font-size: 6px;
+    max-width: 306px;
+}
 }
 
