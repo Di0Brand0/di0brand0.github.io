@@ -400,18 +400,39 @@
         font-size: 9.25px;
     }
     .welcome h1 {
-    font-size: 25.5px;
+        font-size: 25.5px;
     }
     .section {
         padding-top: 24px;
+        min-height: 316px;
+        
     }
     .text-section>h1 {
-    font-size: 13px;
-    padding-bottom: 6px;
+        font-size: 13px;
+        padding-bottom: 6px;
     }
     .text-section>p {
-    font-size: 6px;
-    max-width: 306px;
+        font-size: 6px;
+        max-width: 306px;
+    }
+    .section-flexbox div {
+        width: 120px;
+        height: 120px;
+        margin-left: 28px;
+    }
+    .tickets {
+        margin-bottom: 6px;
+    }
+    .section-flexbox h1 {
+        display: none;
+    }
+    .beer:hover p,
+    .tickets:hover p,
+    .camera:hover p,
+    .devices:hover p {
+        border-radius: 50%;
+        height: 120px;
+        padding-top: 22px;
 }
 }
 
