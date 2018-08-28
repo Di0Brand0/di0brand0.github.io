@@ -1,2 +1,2 @@
 # Хай, зяблс.
-[Example]: http://example.com/
+[Example] http://example.com/
