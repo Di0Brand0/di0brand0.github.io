@@ -1,7 +1,7 @@
-<исходный код >  
-  asd
-  asd
-  asd
-  asd
-  ads
-  a
+  <исходный код >  
+    asd
+    asd
+    asd
+    asd
+    ads
+    a
